@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/22132567/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+
+}
+.box{
+    border: 2px solid skyblue;
+
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: white;
+    border-style: ridge;
+    
+
+}
+.re{
+    text-align: center;
+    transition:transform 0.3s ease-in-out;
+}
+.re:hover{
+    transform:scale(1.5)
+}
+h1{
+    text-align: center;
+    padding-right: 30px;
+}
